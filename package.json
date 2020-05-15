@@ -1,0 +1,51 @@
+{
+  "name": "aladdin-dropshipper",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
+  "description": "\"Dropshipper app for shopify store where any one can sale her product to any store holder and customer hence can earn\" ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuldeepsinghsekhon/aladdin-dropshiper.git"
+  },
+  "keywords": [
+    "dropshipper",
+    "shopify",
+    "node",
+    "react"
+  ],
+  "author": "kuldeep singh sekhon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuldeepsinghsekhon/aladdin-dropshiper/issues"
+  },
+  "homepage": "https://github.com/kuldeepsinghsekhon/aladdin-dropshiper#readme",
+  "dependencies": {
+    "@shopify/app-bridge-react": "^1.21.4",
+    "@shopify/koa-shopify-auth": "^3.1.61",
+    "@shopify/polaris": "^4.22.0",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.5.0",
+    "@zeit/next-css": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-session": "^6.0.0",
+    "moment": "^2.25.3",
+    "next": "^9.4.0",
+    "node-fetch": "^2.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "stripe": "^8.51.0"
+  }
+}
